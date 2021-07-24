@@ -1,0 +1,33 @@
+#wrapper {
+    width: 100%;
+}
+.sidebar {
+    z-index: 1;
+    position: absolute;
+/*    width: 250px;*/
+/*    margin-top: 51px;*/
+    padding-top:20px;
+}
+.navbar-header {
+    float: left;
+}
+  
+ #page-wrapper {
+    position: inherit;
+    margin: 0 0 0 0px;
+    padding: 0 30px;
+    border-left: 1px solid #e7e7e7;
+    background-color: #fff;
+}
+
+.top-message {
+   
+        position: absolute;
+    top: 1px;
+    background: #fff;
+    border-radius: 100%;
+    padding: 2px;
+    right: 10px;
+    color: black;
+
+}

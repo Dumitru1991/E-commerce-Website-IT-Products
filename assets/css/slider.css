@@ -1,0 +1,37 @@
+#main{
+
+}
+#prev-slide, #next-slide{
+    position: absolute;
+    top: 132px;
+    width: 18px; height: 31px;
+    text-indent: -99999px;
+    cursor: pointer;
+}
+#prev-slide{
+    left: 5px;
+    background: url(prev-arrow.png) no-repeat 0 0;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+#next-slide{
+    right: 5px;
+    background: url(next-arrow.png) no-repeat 0 0;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+#wrap-slider{
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+}
+#slider{
+    position: absolute;
+    left: 0; top: 0;
+}
+.slide-box{
+    width: 847px;
+    height: 350px;
+    display: block;
+    float: left;
+}

@@ -1,0 +1,89 @@
+
+.picture_video_footer{
+    
+}
+
+.video{
+
+}
+
+.category{
+    padding-left: 0px;
+    
+}
+
+.category_boder{
+    border-bottom: 1px solid #0ce5ec;
+    display: -webkit-box;
+    font-size: 14px;
+    padding: 11px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    color: rgb(255, 255, 255);
+}
+.infor_footer{
+    
+}
+
+
+.contact_footer {
+    
+}
+
+.element_footer{
+    text-align: center;
+    font-size: 20px;
+    background: none;
+}
+
+.center{
+    text-align: center;
+}
+
+
+@-webkit-keyframes my {
+	0% { color: green; } 
+	50% { color: blue;  } 
+	100% { color: yellow;  } 
+}
+@-moz-keyframes my { 
+	0% { color: red;  } 
+	50% { color: blue;  }
+	100% { color: yellow;  } 
+}
+@-o-keyframes my { 
+	0% { color: red; } 
+	50% { color: blue; } 
+	100% { color: yellow;  } 
+}
+@keyframes my { 
+	0% { color: red;  } 
+	50% { color: blue;  }
+	100% { color: yellow;  } 
+} 
+.test {
+/*         background:#3d3d3d;*/
+    font-size:24px;
+    font-weight:bold;
+	-webkit-animation: my 700ms infinite;
+	-moz-animation: my 700ms infinite; 
+	-o-animation: my 700ms infinite; 
+	animation: my 700ms infinite;
+}
+
+.font_thuphap{
+    font-family: VNI-Thufap2;
+}
+
+.category li a:hover {
+    color: #00f7ff;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.phone:hover {
+	-webkit-animation: my 700ms infinite;
+	-moz-animation: my 700ms infinite; 
+	-o-animation: my 700ms infinite; 
+	animation: my 700ms infinite;
+}

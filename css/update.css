@@ -1,0 +1,241 @@
+
+
+.sizeforlogin {
+    font-size: 25px;
+}
+
+.menu {
+
+}
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 99999
+}
+
+#status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url(images/status.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px
+}
+
+.scrollToTop {
+    bottom: 105px;
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+    height: 50px;
+    position: fixed;
+    right: 75px;
+    text-align: center;
+    text-decoration: none;
+    width: 50px;
+    z-index: 9;
+    border: 1px solid;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s
+}
+
+.scrollToTop:hover,
+.scrollToTop:focus {
+    text-decoration: none;
+    outline: none;
+    color: #15aeb4;
+}
+.register {
+    margin-left: 0px;
+}
+
+.register i {
+    color:#ffffff;
+    font-size: 15px;
+}
+
+.hover_dieukhoan:hover{
+    color: red;
+}
+
+.function_for_user {
+    height: 37px;
+}
+
+.function_for_user_span{
+    margin-top: 10px;
+}
+.red_hover :hover {
+    color: red;
+
+}
+
+.blue_hover :hover {
+    color: #15aeb4;
+
+}
+
+.loginup{
+    margin-left: -111px;
+}
+
+.panel-primary>.panel-heading {
+    color: rgb(255, 255, 255);
+    background-color: #1E122B;
+}
+
+.modal-backdrop.in {
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+.btn-success.active.focus, 
+.btn-success.active:focus, 
+.btn-success.active:hover, 
+.btn-success:active.focus, 
+.btn-success:active:focus, 
+.btn-success:active:hover, 
+.open>.dropdown-toggle.btn-success.focus, 
+.open>.dropdown-toggle.btn-success:focus, 
+.open>.dropdown-toggle.btn-success:hover {
+    color: #fff;
+    background-color: red;
+    border-color: #255625;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #1E122B;
+    border-color: #000000;
+    margin-top: 2rem;
+}
+
+.btn-success:hover {
+    color: rgb(0, 0, 0);
+    background-color: #00f7ff;
+    border-color: #000000;
+}
+
+.panel-primary {
+    border-color: #fdfdfd;
+    
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: rgb(3, 1, 1);
+    background-color: #c2f1f3;
+    background-image: none;
+    
+    
+    
+
+}
+
+.btn.btn-primary {
+    background: #29122b;
+    float: right;
+    margin-top: -34px;
+    height: 34px;
+    width: 90px;
+    font-family: monospace;
+}
+.btn.btn-primary:hover{
+    color: #00f7ff;
+}
+
+.btn.btn-primary1 {
+    background: #fe980f;
+    border: 0 none;
+    border-radius: 1;
+    float: right;
+    margin-top: -34px;
+    height: 34px;
+    font-family: monospace;
+}
+
+.center{
+    text-align: center;
+}
+
+
+.panel-success {
+    border-color: #d6e9c6;
+    width: 498px;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus, 
+.nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #1E122B;
+}
+
+.panel-info>.panel-heading {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.nav-pills>li>a {
+    border-radius: 4px;
+    font-size: 17px;
+    color: #000000;
+}
+
+.sizeactive{
+    font-size: 22px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #1ceef5;
+    color: #000000;
+    
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #fe980f; ;
+    border-color: #ddd;
+}
+
+
+
+.btn-primary.active.focus, 
+.btn-primary.active:focus, 
+.btn-primary.active:hover, 
+.btn-primary:active.focus, 
+.btn-primary:active:focus, 
+.btn-primary:active:hover, 
+.open>.dropdown-toggle.btn-primary.focus, 
+.open>.dropdown-toggle.btn-primary:focus, 
+.open>.dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: #9e0808;
+    border-color: #122b40;
+}
